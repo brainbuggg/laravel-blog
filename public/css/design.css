@@ -1,0 +1,70 @@
+*
+* ===================================================
+* MAIN STYLESHEET FILE
+* @access	public
+* ====================================================
+*/
+/***
+* META
+*/
+body {
+	font-family: 'Dosis', sans-serif !important;
+}
+p {
+	font-size: 16px;
+}
+/***
+* TOP FIXED NAVBAR
+*/
+a.navbar-brand {
+	text-shadow: 1px 2px 5px #666;
+	font-size: 32px !important;
+}
+.top-search-button {
+	border: none; box-shadow: none;
+	border-bottom: 1px solid #ccc; border-radius: 0px;
+}
+
+/***
+* General Classes
+*/
+.buttons-bar button 			{ opacity: 0.7 }
+.buttons-bar button:hover 	{ opacity: 1.0 }
+
+/***
+* General Bootstrap Cascades
+*/
+.input-group-addon {
+	border-bottom: 1px solid #ddd;
+}
+
+ul.nav-stacked li {
+	margin-top: 0px;
+	border-bottom: 1px solid #eee;
+}
+
+
+/* HELPER CLASSES */
+.relative { position: relative }                  .inline { display: inline; }
+.alone-center { margin: 0px auto; }               .middle-align { vertical-align: middle !important; }
+.bordered { border: 1px solid #ddd !important; }  .light-background { background-color: #f6f6f6; }
+.radiused { border-radius: 2px; }          			.avoid-clicks { pointer-events: none; }
+.framed { box-shadow: 0px 0px 3px #555; padding: 2px; border-radius: 2px; }
+.clear { clear: both }                            .justified { text-align: justify !important; }
+.padding10px { padding: 10px !important; }        .strong { font-weight: bold !important }
+.grayed-out { opacity: 0.7 !important; }			.no-padding { padding: 0px; }
+
+/*colors*/
+.white { 		color: white !important; }         	.black { color: #000 !important; }
+.red { 			color: red !important; }
+.green { 		color: #45E045 !important; }       	.green2 { color: #55A555 !important; }
+.blue { 		color: #52B4FB !important; }        .blue2 { color: #2196f3 !important; }
+.orange { 		color: #F55D5D !important; }      	.brown { color: #FFA500 !important; }
+.yellow { 		color: #FFFF55 !important; }      	.aquamarine { color: #7FFFD4 !important; }
+.purple { 		color: #CC57CC !important; }      	.purple2 { color: #FF80AA !important; }
+.silver { 		color: #BCC6CC !important; }      	.thistle { color: #D8BFD8 !important; }
+.venomgreen { 	color: #728C00 !important; }  		.cloudcolored { color: #B6B6B4 !important; }
+.golden { 		color: #EAC117 !important; }      	.rusted { color: #C36241 !important; }
+.faded { 		opacity: 0.7 !important; }
+
+/*@import 'https://fonts.googleapis.com/css?family=Noto+Serif';
